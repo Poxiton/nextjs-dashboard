@@ -140,6 +140,7 @@ export async function authenticate(
           return 'Something went wrong.';
       }
     }
+    console.log('test');
     throw error;
   }
 }
